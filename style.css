@@ -29,6 +29,11 @@ a{
   color:white;
 }
 
+label{
+  display: block;
+  margin: 1em 0 1em 0; /* default values for <p>, doing this so labels act like paragraphs*/
+}
+
 /*------ GENERAL RULES ------*/
 
 

@@ -87,11 +87,11 @@ main article{
   border-right:0;
 }
 
-#cboxItem, #greetings{flex-direction:column;}
+#cboxItem, #greetings, #songRecs{flex-direction:column;}
 #cboxDisclaimer{margin: 2%;}
 #langItem{display: flex; justify-content: space-evenly; align-items: center;}
 #returnItem{display: flex; align-items: center;}
-#songRecs{display: flex; align-items: center;}
+#songRecs{align-items: center;}
 
 /*------ IDs ------*/
 

@@ -71,7 +71,10 @@ main article{
   flex-grow: 1;
 }
 
-
+main a{
+  display: block;
+  margin: 1em 0 1em 0;
+}
 /*------ CLASSES ------*/
 
 
@@ -100,8 +103,6 @@ main article{
 #formAnswer{display: flex; align-items: center; justify-content: center; flex-flow: row nowrap;}
 
 #songRecs {padding: 10px 0 10px 0} /* for mobile screen compatibility */
-
-#returnItem a {display: block; margin: 1em 0 1em 0;}
 /*------ IDs ------*/
 
 

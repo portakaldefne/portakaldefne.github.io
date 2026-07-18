@@ -1,0 +1,57 @@
+/*------  ------*/
+/*------  ------*/
+
+/*------ GENERAL RULES ------*/
+body{
+  background-image: url(https://geocities.ws/lady-supermarket/tiled-background-hearts.gif);
+  background-repeat: repeat;
+  color: white;
+}
+a{
+color: white;
+}
+/*------  GENERAL RULES ------*/
+
+
+/*------  CLASSES ------*/
+header{
+justify-content: center;
+background-color:#794ec9;
+width: 20%;
+margin: 2% 40% 2% 40%;
+display: flex;
+
+}
+
+article section{
+background-color: #a280fc;
+}
+
+article section, header{
+border: darkorchid solid 5px;
+border-radius: 5px;
+outline: black solid 5px;
+}
+article{
+display:flex;
+justify-content: space-between;
+}
+/*------  CLASSES ------*/
+
+
+/*------  IDs ------*/
+#currently{
+width: 460px;
+font-size: 1.2rem;
+}
+
+#currently h2{margin-left:3px;}
+
+#firstContent{
+margin: 2% 10% 2% 10% 
+}
+/*------  IDs ------*/
+
+
+/*------ for translation purposes ------*/
+.englishContent{display:none;}

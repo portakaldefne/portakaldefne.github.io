@@ -1,0 +1,28 @@
+body{
+  background-image: url(https://geocities.ws/lady-supermarket/pink_pastel_tiled.gif);
+  background-repeat: repeat;
+  color: black;
+  box-sizing:border-box;
+}
+
+a{
+  color:black;
+}
+
+main{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 5% 10% 5% 10% ;
+  border: 5px solid black;
+  border-radius: 10px;
+  background-color: pink;
+}
+
+#languageSelector{
+  width: 100px;
+}
+
+.englishContent, .englishFlex{
+  display: none;
+}
